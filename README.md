@@ -264,7 +264,7 @@ This DTO is supported by the helper DTO `LessonCount` which relates a Lesson ent
 
 The mocked list can be obtained with the following cURL:
 
-    curl --location --request GET 'localhost:8080/lesson/{{lessonId}}'
+    curl --location --request GET 'localhost:8080/lesson/{{studentId}}'
 
 The result of the request with `studentId = 4` is as follows:
 
